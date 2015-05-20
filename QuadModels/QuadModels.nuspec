@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0"?>
 <package >
   <metadata>
-    <id>QuadModels.sln</id>
+    <id>QuadModels</id>
     <version>$version$</version>
     <title>QuadModels</title>
     <authors>Rob Cawsey</authors>
     <owners>Rob Cawsey</owners>
-    <licenseUrl>test</licenseUrl>
+    <licenseUrl></licenseUrl>
     <projectUrl></projectUrl>
     <iconUrl></iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
