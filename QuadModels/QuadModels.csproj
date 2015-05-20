@@ -44,7 +44,6 @@
     <Compile Include="Types.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="build.bat" />
     <None Include="QuadModels.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
