@@ -19,4 +19,4 @@ mkdir Build
 mkdir Build\lib
 mkdir Build\lib\net40
  
-%nuget% pack "QuadModels.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%"
+%nuget% pack "\QuadModels\QuadModels.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%"
