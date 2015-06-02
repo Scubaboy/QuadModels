@@ -8,6 +8,12 @@ namespace QuadModels
 {
     public class ActiveQuad
     {
+        public ActiveQuad(int entityId)
+        {
+            this.Id = entityId;
+        }
+
+        public int Id { get; private set; }
         public string QuadId { get; set; }
         public CommsOptions SupportedComms { get; set; }
         public IMUOpions SupportedIMU { get; set; }
