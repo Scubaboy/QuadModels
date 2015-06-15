@@ -29,4 +29,10 @@ namespace QuadModels
         Altic,
         CGPSALtic
     }
+
+    public enum PlatformConfiguration
+    {
+        Quad = 0,
+        Heli = 1
+    };
 }
