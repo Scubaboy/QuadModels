@@ -21,7 +21,9 @@ namespace QuadModels
 
     public enum GPSOptions
     {
-        MKV11 = 0
+        GPSShortMsg = 0,
+        GPSLongMsg = 1,
+        GPSLongShortMsg = 2
     }
 
     public enum AltimeterOptions
