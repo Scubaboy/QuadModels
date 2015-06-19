@@ -8,26 +8,27 @@ namespace QuadModels
 {
     public enum CommsOptions
     {
-        Xbee,
-        GSMModem
+        Xbee = 0,
+        GSMModem = 1
     }
 
     public enum IMUOpions
     {
-        DCM,
-        MPU
+        DCM = 0,
+        MPU1 = 1,
+        MPUDCM = 2
     }
 
     public enum GPSOptions
     {
-        MKV11
+        MKV11 = 0
     }
 
     public enum AltimeterOptions
     {
-        GPS,
-        Altic,
-        CGPSALtic
+        GPS = 0,
+        Altic = 1,
+        CGPSALtic = 2
     }
 
     public enum PlatformConfiguration
